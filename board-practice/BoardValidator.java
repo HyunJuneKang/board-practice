@@ -1,3 +1,4 @@
+//A user edited
 public class BoardValidator {
     public static void validate(Board board) {
         if (board.getTitle() == null || board.getTitle().isEmpty())
