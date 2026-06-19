@@ -5,3 +5,7 @@ public class BoardController {
         boardService.findAll().forEach(System.out::println);
     }
 }
+
+    public void detail(int id) {
+        System.out.println(boardService.findById(id));
+    }
