@@ -1,3 +1,4 @@
+//B 브랜치에서 추가함
 public class Board {
     private int    id;
     private String title;
